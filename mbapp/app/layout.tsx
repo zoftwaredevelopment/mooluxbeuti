@@ -70,6 +70,14 @@ export const metadata: Metadata = {
       "Premium loc care & styling in the GTA. Book your next loc session.",
   },
   robots: { index: true, follow: true },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
 };
 
 /** LocalBusiness structured data — only verified facts. No street address. */
