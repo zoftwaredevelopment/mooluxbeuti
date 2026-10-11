@@ -1,0 +1,55 @@
+{
+  "version": 1.1,
+  "atDirectives": [
+    {
+      "name": "@theme",
+      "description": "Tailwind CSS v4 theme tokens (colors, fonts, easing).",
+      "references": [
+        { "name": "Tailwind Theme Docs", "url": "https://tailwindcss.com/docs/theme" }
+      ]
+    },
+    {
+      "name": "@utility",
+      "description": "Tailwind CSS v4 custom utility definition.",
+      "references": [
+        { "name": "Tailwind Functions & Directives", "url": "https://tailwindcss.com/docs/functions-and-directives" }
+      ]
+    },
+    {
+      "name": "@apply",
+      "description": "Inline Tailwind utilities into a CSS rule."
+    },
+    {
+      "name": "@variant",
+      "description": "Tailwind v4 inline variant directive."
+    },
+    {
+      "name": "@custom-variant",
+      "description": "Tailwind v4 custom variant definition."
+    },
+    {
+      "name": "@source",
+      "description": "Tailwind v4 content source definition."
+    },
+    {
+      "name": "@reference",
+      "description": "Tailwind v4 reference another stylesheet for @apply."
+    },
+    {
+      "name": "@plugin",
+      "description": "Register a Tailwind plugin."
+    },
+    {
+      "name": "@config",
+      "description": "Point Tailwind at a legacy config file."
+    },
+    {
+      "name": "@custom-selector",
+      "description": "Tailwind v4 custom selector."
+    },
+    {
+      "name": "@tailwind",
+      "description": "Legacy Tailwind base/components/utilities directive."
+    }
+  ]
+}

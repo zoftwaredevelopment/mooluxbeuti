@@ -1,0 +1,11 @@
+{
+  "//": "Tailwind CSS v4 uses at-rules (@theme, @utility, @apply, ...) that VS Code's built-in CSS language service doesn't recognise. This keeps globals.css warning-free WITHOUT remapping the file's language (remapping would move it out of the built-in validator that honours the css.* settings). Approach: (1) teach the validator the at-rules via css.customData, and (2) ignore any it still doesn't know. The Tailwind compiler handles these correctly — the production build already passes.",
+  "css.customData": [".vscode/tailwind-css-data.json"],
+  "css.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
+
