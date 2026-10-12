@@ -218,5 +218,14 @@ body {
   }
 }
 
-/* Cursor */
-button { cursor: pointer; }
+/* Cursor + mobile touch behaviour.
+   touch-action: manipulation removes the ~300ms double-tap-zoom delay so taps
+   on links/buttons register immediately on iOS & Android; suppressing the tap
+   highlight keeps the interaction feeling native. */
+button,
+a,
+[role="button"] {
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
